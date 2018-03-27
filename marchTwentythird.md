@@ -6,3 +6,4 @@ What made me choose shell scripting in the first place was the combination of th
 I'm not going to lie. The readings and explanations to the 'grep' commands were hard to read and they were kind of complex, but the topic itself was interesting and although the reading were kind of boring, I still paid attention and that was because I like the command line. Moving forward I wish to explore topics of 'sed' and 'awk' but that is what the upcomming week is for. 
 
 [Next Entry](/marchThirty.md)
+[Table of Contents](/readme.md)
