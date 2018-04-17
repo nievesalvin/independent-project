@@ -1,0 +1,3 @@
+## Friday, April 20th, 2018
+#### Overview and Learning
+Last week I did not get to get in depth as I wished. I was in Indiana visiting the college that I committed too. That being said my research and learning was cut short last week to only about two and a half days. Last week, I stated that `sed` and `awk` where more similar to eachother than `grep` was to either of them, and I decided to use that knowledge to focus my energy and attention on both `sed` and `awk` rather than `grep`. This week I want to start looking at other resources rather than just looking at one website and looking at their documentation, I want to branch out and see what videos and podcast are out there because I feel like learning will be easier if it is visual and auditory. 

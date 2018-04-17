@@ -10,10 +10,10 @@ sed -n '45p' file.txt
 ```
 In the code snippet above the number obviously refers to the line in the document and the 'p' gives the order to print, followed by the name of the file. 
 
-
+**Was not able to complete a full week of research because of a college trip that lasted three days**
 
 
 
 [Previous](/marchThirty.md)<br>
-<!--[Next](/aprilThirteen.md)<br>-->
+[Next](/aprilTwenty.md)<br>
 [Table of Contents](/readme.md)
