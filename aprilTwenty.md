@@ -27,3 +27,8 @@ on the snippet above, the `-f` just tells the computer to look at a particular f
  onE Two ThrEE
  pEanUT bUTTEr jElly
  ```
+ <br> 
+ 
+ [Previous](/aprilThirteen.md)<br>
+ [Next](/aprilTwentyseven.md)<br>
+ [Table of Contents](/readme.md)
