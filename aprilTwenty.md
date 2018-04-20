@@ -27,6 +27,7 @@ on the snippet above, the `-f` just tells the computer to look at a particular f
  onE Two ThrEE
  pEanUT bUTTEr jElly
  ```
+ ofcourse the code snippet above is what you would see if you type in your commands line, and it only modifies the output (what you see in your terminal), in order to actually change what is in the file itself, you would have to write the same line of code  `sed -f filewithcommands textfile -i` the `-i` just tells the computer to not oly modify the output but to also modify the input, which is where the code was orginially typed in. 
  <br> 
  
  [Previous](/aprilThirteen.md)<br>
