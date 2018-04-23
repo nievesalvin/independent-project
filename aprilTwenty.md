@@ -30,6 +30,9 @@ on the snippet above, the `-f` just tells the computer to look at a particular f
  ofcourse the code snippet above is what you would see if you type in your commands line, and it only modifies the output (what you see in your terminal), in order to actually change what is in the file itself, you would have to write the same line of code  `sed -f filewithcommands textfile -i` the `-i` just tells the computer to not oly modify the output but to also modify the input, which is where the code was orginially typed in. 
  <br> 
  
+#### Takeaways 
+after this week of learning, I have learned several things about myself and the way I learn. First off, I  absolutely figured out that my best still of learning is through audio. My advice is this, do not limit yourself. There are plenty of resources out there, find what works for you and stick to it.
+ 
  [Previous](/aprilThirteen.md)<br>
  [Next](/aprilTwentyseven.md)<br>
  [Table of Contents](/readme.md)
