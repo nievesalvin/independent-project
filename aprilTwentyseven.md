@@ -1,0 +1,3 @@
+## April 27th, 2018
+#### Overview and Learning
+Throughout this week, the goal was to continue learning but to also start the building of the tutorial. This is when my independent project enters its next stage. The first step was to read through sources and start to learn about the topic and to try and get to a place where I am comfortable with the topic. The next step is to start gathering information and to start creating examples because a tutorial is only as good as the explanation that is provided. 
