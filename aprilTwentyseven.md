@@ -23,4 +23,6 @@ this line is basically the inverse of the first one and all it does insert the w
 #### Takeaways 
 Throughout the course of this project, there is only one thing that has really stuck out to me. It's not what you learn, or the knowledge that you accumulate, rather it is that this is only temporary and that you need gain the benefits of what it is your as soon as possible because everything moves forward whether and you need to move with it without dwelling on what you could've done or not done. I say this because as we move forward with the project, there is no point of looking back wishing that we could have worked on something for longer . instead we need to take the knowledge that we have already atttained and continue moving forward, and I feel like college will be similar. 
 <br>
-[Next]
+[Next](mayFour.md)<br>
+[Previous](aprilTwenty.md)<br>
+[Table of Contents](readme.md)
