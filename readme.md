@@ -6,3 +6,4 @@
 3. [Week three (April 13th, 2018)](/aprilThirteen.md)
 4. [Week four (April 20th, 2018)](/aprilTwenty.md)
 5. [Week five(April 27th,2018)](/aprilTwentyseven.md)
+6. [Week six(May 4th, 2018)](mayFour.md)
