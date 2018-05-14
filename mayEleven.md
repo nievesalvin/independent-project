@@ -5,4 +5,8 @@ Throughout this week, I used my google docs list in order to create a basic HTML
 ![Code Snippet](codesnippet.png)<br>
 
 #### Takeaways
-My takeaways for this week (and life in general) is simple. Quality over Quantity. I rather have something very basic, that provides detailed explanations for limited examples over something that provides a plethora of examples with little to no explanation. Just like in life, perhaps it is better to be an expert in one thing, rather than being extremely average in a lot of things. 
+My takeaways for this week (and life in general) is simple. Quality over Quantity. I rather have something very basic, that provides detailed explanations for limited examples over something that provides a plethora of examples with little to no explanation. Just like in life, perhaps it is better to be an expert in one thing, rather than being extremely average in a lot of things. <br>
+
+[Previous](/mayFour.md)<br>
+[Next]()<br>
+[Table of Contents](/readme.md)
