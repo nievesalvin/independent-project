@@ -6,7 +6,49 @@
   </head>
   <body>
   
-      <h1 class="text-center">SED Tutorial</h1>
+      <h1>Welcome to the SED tutorial</h1>
+      <h5>The purpose of this tutorial is to explain the basics of sed and to give examples along with explanations of how certain commands work and why certain characters are present.</h5>
+      
+      <h3>A little bit about SED</h3>
+      <h5>SED stands for "Stream EDitor," and what it is supposed to do is allow you to change and edit the context and outputs of certain files without actually having to open those files. SED can be grouped with GREP and AWK, which are different "languages" of what is known as Shell-Scripting. The two most similar languages would have to be SED and AWK, both of these languages can be characterized as "text processors," deeming from the fact that they worry about dealing with how to amend the content that can be found in files. GREP on the other hand can be classified as a "search engine," because it focuses on finding words, phrases, or particular characters that are similar throughout multiple files, it looks for patterns and that is what makes it drastically different from its two counter-parts, which share more similarities with each other.</h5>
+      <h4> There are several ways in which commands can be broken up, you have "change", "delete",</h4>
+ <table>
+   <tr>
+     <th>Syntax</th>
+     <th>Significance</th>
+   </tr>
+   <tr>
+     <th>c</th>
+     <th>Stands for change, is present at the beginning of the commands that edit and switch words.</th>
+   </tr>
+   <tr>
+     <th>d</th>
+     <th>Stands for delete, goes in front of the command that deals with removing stuff, whether it be lines or words. </th>
+   </tr>
+   <tr>
+       <th>p</th>
+       <th>Stands for print, goes in front of the file name so that the content of that particular file could appear in the terminal</th>
+   </tr>
+ </table>
+ <h3> SPACE FILLER </h3> 
+ <h3> -c:Change </h3>
+ <p>Below is the simplest use to the change indicator in SED</p>
+<pre>Lets say you have a file[textfile.txt] and inside that file it states:
+    <code>
+        Peanut
+        Liquorice
+        Peaches
+    </code>
+    in order to apply a change to the textfile above, you would have to present the computer with<br> the line that you would like to change, followed by the indicator,"c", and then the new string <br> that you would like to have in its' place. That line of code should look like this:
+    <code>sed '1cApples'</code><br>
+    After that line is imputed then the textfile should have replaced 'Peanut' for 'Apples'. <br> New Textfile: 
+    <code>
+        Apples
+        Liquorice
+        Peaches
+    </code>
+</pre>
+ 
  
   </body>
 </html>
