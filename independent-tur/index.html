@@ -11,7 +11,7 @@
       
       <h3>A little bit about SED</h3>
       <h5>SED stands for "Stream EDitor," and what it is supposed to do is allow you to change and edit the context and outputs of certain files without actually having to open those files. SED can be grouped with GREP and AWK, which are different "languages" of what is known as Shell-Scripting. The two most similar languages would have to be SED and AWK, both of these languages can be characterized as "text processors," deeming from the fact that they worry about dealing with how to amend the content that can be found in files. GREP on the other hand can be classified as a "search engine," because it focuses on finding words, phrases, or particular characters that are similar throughout multiple files, it looks for patterns and that is what makes it drastically different from its two counter-parts, which share more similarities with each other.</h5>
-      <h4> There are several ways in which commands can be broken up, you have "change", "delete",</h4>
+      <h4> There are several ways in which commands can be categorized, you have "change", "delete", "print", "insert", and "amend".</h4>
  <table>
    <tr>
      <th>Syntax</th>
@@ -28,6 +28,14 @@
    <tr>
        <th>p</th>
        <th>Stands for print, goes in front of the file name so that the content of that particular file could appear in the terminal</th>
+   </tr>
+   <tr>
+       <th> i</th>
+       <th>Stands for insert, and it allows word or phrases to be added at the beginning of a sentence</th>
+   </tr>
+   <tr>
+       <th> a</th>
+       <th>stands for ammend, allows for words and phrases to be added after a sentence or a line of code. </th>
    </tr>
  </table>
  <h3> SPACE FILLER </h3> 
@@ -48,7 +56,48 @@
         Peaches
     </code>
 </pre>
- 
- 
+ As it was previously stated, there are several different ways to switch or change up lines, phrases, or words in SED. The line above simply displays how one can change a line of code, whether it be a phrase or a word. The next example, uses the bracket system, because it sets up the computer to get ready for more than one command, but we'll get to that later. For now ignore the brackets. 
+ <pre>
+     As stated before we will be using brackets for this example. Lets' say you have the saem  <br> file, textfile.txt, with the same exact text that was amended in the last example. That<br> file would look a little like this: 
+     <code>
+         Apples
+         Liquorice
+         Peaches
+     </code>
+     Now if we use our bracket method of the change indicator, which looks like this:
+     <code>
+         sed ' /oldphrase/ {
+         c/ 
+         newphrase}'
+     </code>
+     Lets' break the code above, up. Obviously, the 'sed' in front lets the computer know<br> what language you are using and it is basically a pre-cursor. In between the back-slashes <br> you can find a phrase or a word, in this case, for the sake of the example, it is labeled <br> as 'oldphrase'. The brackets allow the computer to process multiple commands, but since <br> we only used once, it only processes that request. The 'c' is the indicator, and after <br> that the new phrase or word that you would like to have appear will subsitute the old <br> phrase. 
+     If we input the bracket text to swap out 'Peaches' from the textfile, it would look <br> like this.
+     
+     <code>sed '/Peaches/{
+     c/
+     Avocados}'</code>
+     
+     With this line of code, the texfile will be edited, and it would look like this: 
+     
+     <code>
+        Apples
+        Liquorice
+        Avacodos
+     </code>
+ </pre>
+ Lets' move on to 'insert' and 'append' since they also work with the brackets. 
+ <h3>i: Insert // a: Append</h3>
+ <p> As stated in the table at the beginning of the webpage, the insert and append indicators allow words or phrases to be added either in front or after certain lines or words.</p>
+ <pre>
+     The bracket system that we just went over can be used in addition to the change file <br>it can also be combined with other commands, which is what we will be going over. Lets' <br>assume that the textfile is the same. In that textfile we have Apples, Liquorice, and Avacodos. <br>But with the bracket system we can  add the list so that it may include, 3, 4 or more items. The<br>way we do that is like this:" 
+     <code>
+         sed '/Peanuts/ {
+         i/
+         Taffy
+         a/
+         popsicles }'
+     </code>
+     The words in the between the backslahes, is like a pre-cursor, it tells the computer where<br>to start adding word etc. Because Peanuts was selected the computer knows that it is working on <br>the first line of the file, so when the programmer indicates that it would like to 'insert' a <br>phrase in front of 'Peanut', then it needs to create a new first line and move everything down. <br> 
+ </pre>
   </body>
 </html>
