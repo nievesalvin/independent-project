@@ -8,3 +8,5 @@
 5. [Week five (April 27th,2018)](/aprilTwentyseven.md)
 6. [Week six (May 4th, 2018)](/mayFour.md)
 7. [Week seven (May 11th, 2018)](/mayEleven.md)
+8. [Week eight (May 18th, 2018]
+9. [Week nine (May 25th, 2018](/mayTwentyfive.md)
